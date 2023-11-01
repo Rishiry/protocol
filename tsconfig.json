@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "target": "ES6",
+      "moduleResolution": "node",
+      "baseUrl": "./", // add this line
+      "typeRoots": ["./types", "./node_modules/@types"],
+      "skipLibCheck": true,
+      "paths": {
+        "@ronomon/reed-solomon": ["node_modules/@ronomon/reed-solomon"]  // add this line
+      }    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+  "name": "protocol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@ronomon/reed-solomon": "^6.0.0",
+    "@subspace/reed-solomon-erasure.wasm": "^0.2.5",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.11"
+  }
+}
